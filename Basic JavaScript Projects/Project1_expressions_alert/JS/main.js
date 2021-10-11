@@ -48,3 +48,9 @@ document.write(4 + 3)
 function displayDate() {
     document.getElementById("demo").innerHTML = Date();
 }
+
+document.write("<br><br>");
+var One_String = "This string will be printed";
+var Two_String = " with this string even though they are from different variables.";
+var Complete_String = One_String + Two_String;
+document.write(Complete_String);
