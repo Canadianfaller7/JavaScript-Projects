@@ -42,3 +42,9 @@ document.write(purple);
 
 // This is a staement(document.write) that contains an expression(4 + 3)
 document.write(4 + 3)
+
+// This function will let us get the current date and time which will
+//be called in the HTML file.
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
