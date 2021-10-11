@@ -1,6 +1,6 @@
 // this function takes the str var inside and changes the text to red and then gets called in our html file
 function My_First_Function() {
-    var str = "This text is red";
+    var str = "Because you clicked the button, you created a new sentence in red color!";
     var result = str.fontcolor("red");
     document.getElementById("Red_Text").innerHTML = result;
 }
