@@ -15,4 +15,4 @@ document.getElementById("Dictionary").innerHTML = Animal.Breed;
 }
 
 // here we are deleting the color from our dictionary
-delete Animal.Colorl;
+delete Animal.Color;
