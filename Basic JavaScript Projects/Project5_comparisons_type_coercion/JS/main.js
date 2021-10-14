@@ -91,9 +91,12 @@ document.write("<br>");
 // this will print false because both statments are false
 document.write(7 > 10 || 10 < 6);
 
+// this is gonna print true because 5 is not greater than 10
 function not_Function() {
     document.getElementById("not").innerHTML = !(5 > 10);
 }
+// this will print false because because it is saying 5 is not less 
+// than 10 but it is less than 10
 function not_Function1() {
     document.getElementById('not1').innerHTML = !(5 < 10);
 }
