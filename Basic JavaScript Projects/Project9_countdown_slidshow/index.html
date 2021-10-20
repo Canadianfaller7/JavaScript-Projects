@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML Template</title>
+        <link rel="stylesheet" href="./CSS/main.css">
+        <script src="./JS/main.js"></script>
+    </head>
+
+    <body>
+        <p>How many second would you like to set your alarm for?</p>
+        <input id="seconds" value="">
+        <button onclick="countdown()">Click here</button>
+        <p id="timer"></p>
+        <br>
+
+        <!--Slideshow Container-->
+
+        <div class="slideshow-container">
+            <!--Full-width images with number and caption text-->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="./imgs/smoke1.png" style="width: 100%;">
+                <div class="text">Slide 1</div>
+            </div>
+
+            <div class ="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="./imgs/smoke2.png" style="width: 100%;">
+                <div class="text">Slide 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="./imgs/smoke3.png" style="width: 100%;">
+                <div class="text">Slide 3</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="./imgs/smoke4.png" style="width: 100%;">
+                <div class="text">Slide 4</div>
+            </div>
+
+            <!--Next and previous buttons-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!--The dots/circles-->
+        <div style="text-align: center;">
+            <span class="dot" onclick="currenSlide(1)"></span>
+            <span class="dot" onclick="currenSlide(2)"></span>
+            <span class="dot" onclick="currenSlide(3)"></span>
+            <span class="dot" onclick="currenSlide(4)"></span>
+        </div>
+    </body>
+</html>
