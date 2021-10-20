@@ -23,18 +23,40 @@ function countdown() {
 
 // Slide Show //
 
+// this will let us display the first image within the array
 let slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/Previous controls
+
+// this lets us move to the next image in the array
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
+
+// this is basically saying what we got from the above functions equals the 
+// current slide we will be on
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
+
+/* this will be part of the actual slide show. We make var i blank so we can
+then use it later on.
+
+We set slides and dots equal the class names in the html file.
+
+We use an if statement saying if n is less than the total slide length then
+the slide should equal 1.
+
+Then we do a loop saying if i equals 0 and i is less than the slide length
+add 1 and change the slide, and under the loop we are saying to show 
+nothing until you click the arrow keys.
+
+The next for loop is saying if the i is less than the number of dots,
+activate the next dot and then deactivate the previous dot, so it shows you
+are on a new slide frame */
 
 function showSlides(n) {
     let i;
