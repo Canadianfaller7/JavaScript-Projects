@@ -17,7 +17,7 @@ function countdown() {
             clearTimeout(time);
             timer.innerHTML = "";
         }
-    }
+    }    
     tick();
 }
 
