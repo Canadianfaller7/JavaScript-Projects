@@ -1,0 +1,38 @@
+/* Here we are creating a color and border for all of 
+the text fields*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Here we are creating a border and color for the submit
+button*/
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(4, 167, 140);
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+/* Here we are creating a hover effect for our submit
+button.*/
+input[type=submit]:hover {
+    background-color:rgb(34, 90, 81);
+}
+
+/* Here we are creating an over all border around the 
+whole form*/
+div {
+    border-radius: 5px;
+    background-color: #cacaca;
+    padding: 20px;
+}
