@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="xmlExample"></p>
+        <script>
+            let xmlParser, xmlDocument;
+
+            //creates a text string
+            let movie = "<movie>" + "<title>The Lion King</title>" 
+            + "<director>Rob Minkoff and Roger Allers</director>" + "<year>1994</year>" +
+            "</movie>";
+
+            //creates an xml dom parser
+            xmlParser = new DOMParser();
+
+            // creates a new xml dom object using the text string
+            xmlDocument = xmlParser.parseFromString(movie, "text/xml");
+
+            document.getElementById("xmlExample").innerHTML =
+            xmlDocument.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
