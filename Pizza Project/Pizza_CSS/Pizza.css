@@ -1,0 +1,106 @@
+/* This gives a background color to the screen*/
+body {
+    background-color: rgb(53, 0, 139);
+}
+
+/* Adds a font style to all h1's and also a color*/
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightcyan;
+}
+
+/* Same as above but only to the h3's*/
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcyan;
+    
+}
+
+/* This centers the Pizza drill title */
+h1.title {
+    margin: 0 0px 0 200px;
+
+}
+
+/* does the same as the h1 and h3, but for the divs(like the toppings and pizza size text*/
+div {
+    font-family:cursive, 'Arial Narrow', Arial, sans-serif;
+    color: lightgray;
+}
+
+/* This takes the menu and sets like a paramater around it and moves it
+more towards the middle of the screen*/
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px 400px;
+}
+
+/* This sets the frame so that all of the toppings and such can sit next to each other*/
+#frmMenu {
+    width: 800px;
+    height: 200px;
+    
+}
+
+/* This gives the width and all of the placement stuff for the total price*/
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+
+/* Sets the size and postitions the Size menu to the left of the screen*/
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.mid {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* Same as above, just for the Topping menu*/
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+
+
+/* */
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+/* This give the styling and placing of the cart*/
+#cart {
+    top: 0; margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+/* This sets a size on the order button*/
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 25px 270px;
+}
+
+
