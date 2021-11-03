@@ -1,5 +1,5 @@
 # JavaScript Projects
  
-  *Bullet list
+ * Bullet list
               * Nested bullet
  
